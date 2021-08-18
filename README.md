@@ -1,2 +1,8 @@
-# EchoCompany JSON:API
- 
+<b>Инструкция по развертыванию проекта</b><br>
+1: Скопировать проект на сервер<br>
+2: Установить composer, открыть консоль и указать путь до директории проекта<br>
+3: Изменить данные в файле .env (Имя БД,Пароль,DB_Host)<br>
+4: В cmd выполнить команду "php artisan migrate",
+затем "php artisan db:seed"(Увеличить количество вносимых в БД записей можно в файле DatabaseSeeder)<br>
+5: Выполнить команду "php artisan l5-swagger:generate"<br>
+Проект развернут, с ним можно работать. Документация к API находится по URL: <b>"http://"servername"/api/documentation"</b>
