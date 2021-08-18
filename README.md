@@ -1,0 +1,2 @@
+# EchoCompany JSON:API
+ 
